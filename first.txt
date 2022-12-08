@@ -1,0 +1,8 @@
+Hello this is my work using notepad in first project
+New changes made now 
+Second change
+
+this is for commit alpha
+
+adding for next commit 
+heyyy

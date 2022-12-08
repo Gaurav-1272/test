@@ -1,0 +1,33 @@
+git config --global user.name "Gaurav"
+git config --global user.email "gourav.1272@gmail.com"
+
+
+git status (shows fatal if there is no git folder)
+git init   (creates empty git repo)
+git add --a (to stage all the files)
+git add --first.text (stages just the text file, if there are spaces b/w names use "this file.xlsx")
+git commit --m "This is first commit" (Commit the changes to the repo)
+git commit -a -m "This is commit"     (This directly commit without using staging)
+git log      (Shows all the commits in the repo https://www.youtube.com/watch?v=Hxn3OguEMd4&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&index=11 )
+rm -rf .git (removes the git repo completely)
+
+git clone github link  (clones the githib repo on local)
+
+.gitignore text file (just insert file/folder names in this txt files which you dont want git to track https://www.youtube.com/watch?v=TwKALVoK5cE&list=PLu0W_9lII9agwhy658ZPA0MTStKUJTWPi&index=7 )
+
+git diff (shows the difference between stage and current working)
+
+git diff --staged (shows the difference between last commit and present stage)
+
+git rm file_to_be_deleted.txt 
+git mv file_to_be_renamed.txt new_name.txt
+
+git restore --staged file.txt  (used to unstage file.txt)
+
+git checkout -- file.txt        (used to erase all the changes in file at current working and bring it to last commit)
+git checkout -f                  (same but does it for all files in repo)
+
+
+
+
+
